@@ -4,6 +4,7 @@
     "links links links"
     "content_index content_index content_index"
      "content_index content_index content_index"
+          "content_index content_index content_index"
     "foot foot foot"
     ;
 }
@@ -11,11 +12,11 @@
     grid-area: links;
   
 }
-.container__home{
+.content__body{
     grid-area: content_index;
     
 }
-.container__footer{
+.content__footer{
     grid-area: foot;
   
 }

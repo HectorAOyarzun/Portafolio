@@ -1,0 +1,204 @@
+
+
+.content__body{
+
+    margin-top: 0px;
+
+
+}
+.home__portada{
+    background-image: url(../assets/Portada.jpg);
+    width: 100%;
+    height: 600px;
+    &__title{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: wheat;
+    }
+  
+}
+.presentation{
+    background-image: url(../assets/manos-vista-frontal-primer-cartel-seguridad_23-2149919543.jpg);
+   // height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        &__about{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            background-color: rgb(255, 255, 255);
+            //height: 400px;
+                &__article{
+                padding: 20px;
+                width: 60%;
+                h2{
+                    text-align: center;
+                    color:blue;
+                }
+                p{
+                    text-align: justify;
+                }
+                 }
+                &__image{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40%;
+                    height: 400px;
+                &__img{
+                 animation-name: mianimacionpresentation;
+                 animation-duration:5s;
+                 animation-delay:1s;
+                 position:relative;
+                 animation-timing-function:linear;
+                 animation-iteration-count:infinite;
+                 /*@keyframes mianimacionpresentation{
+                 0% {donw:0;top:0px;}
+                 25%{color:rgb(139, 138, 138);donw:10px;top:5px;}
+                 50% {donw:20px;top:10px;}
+                 75% {donw:30px;top:15px;}
+                 100% {donw:60px;top:0px;}
+                 }*/
+                 @keyframes mianimacionpresentation{
+                 0% {donw:0;top:0px;}
+                 25%{donw:10px;top:5px;}
+                 50% {donw:20px;top:10px;}
+                 75% {donw:30px;top:15px;}
+                 100% {donw:40px;top:0px;}
+             }
+                }
+        }
+    }
+        &__hidden{
+            height: 400px;
+            background-color: rgba(240, 248, 255, 0);
+
+        }
+
+       
+}
+ .education{
+            background-image: url(../assets/educacion.JPG);
+              background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+            background-size: cover;
+            &__title{
+                display: flex;
+                 flex-direction: row;
+                align-items: center;
+                background-color: white;
+                width: 100%;
+
+            }
+            &__hidden{
+            height: 400px;
+            background-color: rgba(240, 248, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            h2{
+                font-size: 40px;
+            }
+
+            }
+            &__number{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(11, 0, 74);
+                color:white;
+                border-radius: 50px;
+                height: 30px;
+                width: 30px;
+                margin:5px 0px 5px 60px;
+                &:hover{
+                    transform: scale(1.5);
+                }
+            }
+            &__1{
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                border-left: 2px solid black;
+                height: 100px;
+                margin-left: 73px;
+                padding-bottom: 10px;
+                &__image{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px;
+                    transition: width 2s, height 2s, transform 2s;
+                     &:hover{
+                        transform: rotate(360deg);
+                      
+                    }
+
+                }
+                &__description{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    h6{
+                        padding-top: 20px;
+                        color:black;
+                        &:hover{
+                            color:rgb(1, 1, 76);
+                            transform: scale(0.9);
+                            font-weight: 600;
+                            
+                        }
+                    }
+                    p{
+                        color:blue;
+                        &:hover{
+                            font-weight: 800;
+                        }
+                    }
+
+                }
+            
+
+            }
+            &__column{
+
+                width: 70%;
+            }
+            &__img__lateral{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                  transition: width 2s, height 2s, transform 2s;
+                    &__mov{
+                    animation-name: mianimacioneduc;
+                    animation-duration:5s;
+                    animation-delay:1s;
+                    position:relative;
+                    animation-timing-function:linear;
+                    animation-iteration-count:infinite;
+                    @keyframes mianimacioneduc{
+                    0% {donw:0;top:0px;}
+                    25%{color:rgb(139, 138, 138);donw:10px;top:5px;}
+                    50% {donw:20px;top:10px;}
+                    75% {donw:30px;top:15px;}
+                    100% {donw:60px;top:0px;}
+                    }
+                    }
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+            }
+             
+         
+        }
