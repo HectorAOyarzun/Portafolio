@@ -18,6 +18,7 @@
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Data aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     
     
     <title>Portafolio | Héctor Oyarzún Muñoz</title>
 </head>
@@ -61,7 +62,8 @@
     </section>
         <section class="presentation" id="profile">
              <section class="presentation__about">
-                <div class="presentation__about__article">
+                <div data-aos="fade-up"
+                 class="presentation__about__article">
                     <h2>Presentación</h2>
                 
                         <p>Profesional con experiencia en liderazgo de equipos, 11 años de trayectoria
@@ -71,8 +73,8 @@
                             mejora continua y optimización de los recursos disponibles, excelentes relaciones 
                             interpersonales en labores individuales y en equipo, pro activo ante la materialización
                             de problemas, intentado buscar soluciones efectivas a estos cuando se presentan.</p>
-                 </div>
-                <div class="presentation__about__image">
+                 </div >
+                <div  data-aos="flip-right" class="presentation__about__image">
                      <img src="./assets/hector.jpeg" width="300px" height="300px" alt="Hector Oyarzun">
                 </div>
              </section>
@@ -80,7 +82,7 @@
 
              </section>
              <section class="presentation__about" id="about">
-                 <div class="presentation__about__article">
+                 <div data-aos="fade-up" class="presentation__about__article">
                      <h2>Acerca de mí</h2>
                         <p>Soy un amante de la tecnología, curioso ante las nuevas tendencias que
                             se encuentran a disposción, me encanta sorprenderme ante lo que estas 
@@ -94,7 +96,7 @@
                         entre la vida laboral y personal.
                         </p>
                  </div>
-                 <div class="presentation__about__image">
+                 <div  data-aos="flip-right" class="presentation__about__image">
                      <img class="presentation__about__image__img" src="./assets/tecnologias.JPG" width="300px" height="300px" alt="Hector Oyarzun">
                  </div>
              </section>   
@@ -107,7 +109,7 @@
       
         <section class="education__column">
            <div class="education__number"><h4></h4></div>
-        <div class="education__1">
+        <div data-aos="flip-up"  class="education__1">
             <div class="education__1__image">
             <img src="./assets/aiep.jpg" width="50px" height="50px" alt="PUC">
             </div>
@@ -120,7 +122,7 @@
 
         </div>
          <div class="education__number"><h4></h4></div>
-        <div class="education__1">
+        <div data-aos="flip-up" class="education__1">
             <div class="education__1__image">
             <img src="./assets/puc.jpeg" width="50px" height="50px" alt="PUC">
             </div>
@@ -133,7 +135,7 @@
 
         </div>
         <div class="education__number"><h4></h4></div>
-        <div class="education__1">
+        <div data-aos="flip-up" class="education__1">
              <div class="education__1__image">
             <img src="./assets/eneb.jpeg" width="50px" height="50px" alt="PUC">
             </div>
@@ -145,7 +147,7 @@
         </div>
         </div>
           <div class="education__number"><h4></h4></div>
-        <div class="education__1">
+        <div data-aos="flip-up" class="education__1">
              <div class="education__1__image">
             <img src="./assets/eneb.jpeg" width="50px" height="50px" alt="PUC">
             </div>
@@ -157,7 +159,7 @@
         </div>
         </div>
            <div class="education__number"><h4></h4></div>
-        <div class="education__1">
+        <div data-aos="flip-up" class="education__1">
              <div class="education__1__image">
             <img src="./assets/iacc.jpeg" width="50px" height="50px" alt="PUC">
             </div>
@@ -169,7 +171,7 @@
         </div>
         </div>
            <div class="education__number"><h4></h4></div>
-        <div class="education__1">
+        <div data-aos="flip-up" class="education__1">
              <div class="education__1__image">
             <img src="./assets/ejercito.jpeg" width="50px" height="50px" alt="PUC">
             </div>
@@ -181,7 +183,7 @@
         </div>
         </div>
         </section>
-        <div class="education__img__lateral">
+        <div  data-aos="flip-right" class="education__img__lateral">
             <img class="education__img__lateral__mov" src="./assets/educacion-2.JPG" width="300px" height="300px" alt="Educación">
         </div>
     </section>
@@ -192,7 +194,7 @@
         </section>
         </section>
         <section class="tecno__tools">
-            <div class="tecno__tools__row">
+            <div  data-aos="fade-right" class="tecno__tools__row">
                 <div class="tecno__tools__row__card">
                     <img src="./assets/html5.png" width="100px" height="100px" alt="html">
                     <p>HTML 5</p>
@@ -211,7 +213,7 @@
 
         </section>
              <section class="tecno__tools">
-            <div class="tecno__tools__row">
+            <div  data-aos="fade-left" class="tecno__tools__row">
                 <div class="tecno__tools__row__card">
                     <img src="./assets/appsScript.png" width="100px" height="100px" alt="appsScript">
                     <p>Apps Script</p>
@@ -230,7 +232,7 @@
 
         </section>
             <section class="tecno__tools">
-            <div class="tecno__tools__row">
+            <div  data-aos="fade-right" class="tecno__tools__row">
                 <div class="tecno__tools__row__card">
                     <img src="./assets/googeSheets.png" width="100px" height="100px" alt="Google Sheets">
                     <p>Google Sheets</p>
@@ -290,9 +292,14 @@
         </div>
   </section>
 </footer> 
-</div>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
         crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</div>
+ 
 </body>
 </html>

@@ -99,7 +99,7 @@ html {
 }
 
 .home__portada {
-  background-image: url(../assets/Portada.jpg);
+  background-image: url(../assets/portada-22.JPG);
   width: 100%;
   height: 600px;
 }
@@ -111,7 +111,7 @@ html {
   align-items: center;
   width: 100%;
   height: 100%;
-  color: wheat;
+  color: white;
 }
 
 .presentation {
