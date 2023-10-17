@@ -1,5 +1,18 @@
+*{
+    @include reset;
+}
 html{
-  scroll-behavior:smooth;
+    @include html;
+}
+body{
+    @include body;
+}
+main{
+    @include main;
+}
+
+html{
+ scroll-behavior:smooth;
 }
 .style__navbar{
     background-color:#03031a!important;
@@ -11,8 +24,6 @@ html{
         flex-direction: row;
         padding: 5px;
         align-items: center;
-     
-       
     }
     a{
         color:white;
