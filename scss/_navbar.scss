@@ -1,5 +1,41 @@
+html{
+  scroll-behavior:smooth;
+}
 .style__navbar{
-    background-color: rgb(1, 36, 67);
-    color:white;
+    background-color:#03031a!important;
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+    &__name{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        align-items: center;
+     
+       
+    }
+    a{
+        color:white;
+         &:hover{
+            transition: ease-in .4s;
+            background-color: aliceblue;
+            
+        }
+    }
+    &__position{
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    &__text{
+       justify-content: flex-end;
+       a{
+        color:white;
+        &:hover{
+            background-color: aliceblue;
+            transition: ease-in .4s;
+        }
+       }
+    }
 
 }

@@ -4,6 +4,38 @@
 /*
 * variables
 */
+.redes-linkedin {
+  color: #0000ff;
+}
+
+.redes-whatsapp {
+  color: #00b938;
+}
+
+.redes-facebook {
+  color: #0000ff;
+}
+
+.redes-envelope {
+  color: rgb(190, 54, 190);
+}
+
+.redes-github {
+  color: white;
+}
+
+.values-heart {
+  color: #680602;
+}
+
+.values-arrow {
+  color: #01571b;
+}
+
+.values-people {
+  color: #02445e;
+}
+
 .container__grid__index {
   display: grid;
   grid-template-areas: "links links links" "content_index content_index content_index" "content_index content_index content_index" "content_index content_index content_index" "foot foot foot";
@@ -24,9 +56,42 @@
 /*
 * Layout
 */
+html {
+  scroll-behavior: smooth;
+}
+
 .style__navbar {
-  background-color: rgb(1, 36, 67);
+  background-color: #03031a !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1030;
+}
+.style__navbar__name {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+}
+.style__navbar a {
   color: white;
+}
+.style__navbar a:hover {
+  transition: ease-in 0.4s;
+  background-color: aliceblue;
+}
+.style__navbar__position {
+  justify-content: flex-end;
+  width: 100%;
+}
+.style__navbar__text {
+  justify-content: flex-end;
+}
+.style__navbar__text a {
+  color: white;
+}
+.style__navbar__text a:hover {
+  background-color: aliceblue;
+  transition: ease-in 0.4s;
 }
 
 .content__body {
@@ -67,6 +132,8 @@
 .presentation__about__article {
   padding: 20px;
   width: 60%;
+  box-shadow: 1px 0px 12px 0px rgba(128, 128, 128, 0.2196078431);
+  margin: 10px;
 }
 .presentation__about__article h2 {
   text-align: center;
@@ -130,6 +197,8 @@
   align-items: center;
   background-color: white;
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .education__hidden {
   height: 400px;
@@ -149,9 +218,9 @@
   background-color: rgb(11, 0, 74);
   color: white;
   border-radius: 50px;
-  height: 30px;
-  width: 30px;
-  margin: 5px 0px 5px 60px;
+  height: 20px;
+  width: 20px;
+  margin: 10px 0px 10px 63px;
 }
 .education__number:hover {
   transform: scale(1.5);
@@ -260,7 +329,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .tecno__hidden h2 {
   font-size: 40px;
@@ -268,25 +337,65 @@
 .tecno__tools {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 40px 80px 40px 80px;
 }
 .tecno__tools__row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.tecno__tools__row p {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 800;
+}
+.tecno__tools__row p:hover {
+  color: blue;
+}
+.tecno__tools__row__card {
+  background-color: rgba(128, 128, 128, 0.1215686275);
+  padding: 50px;
+  box-shadow: 5px -3px 20px 0px rgba(0, 0, 255, 0.2392156863);
+  border-radius: 10px;
+}
+.tecno__tools__row__card:hover {
+  transform: scale(1.2);
+}
+.tecno__tools__row__card img {
+  transition: width 2s, height 2s, transform 2s;
+}
+.tecno__tools__row__card img:hover {
+  transform: rotate(360deg);
 }
 
 .content__footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   background-color: #0a0135;
+  justify-content: center;
 }
 .content__footer__column {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 50%;
+}
+.content__footer__column__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.content__footer__column__text h4 {
+  text-align: center;
+}
+.content__footer__column__text p {
+  text-align: center;
 }
 .content__footer__column__footer__rrss {
   display: flex;
