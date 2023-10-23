@@ -8,14 +8,14 @@
     min-height: 100%;
 }
 @mixin body{
-    display: flex;
+    //display: flex;
     justify-content: center;
     overflow-x: hidden;
     min-height: 100%;
     min-width: 100%;
 }
 @mixin main{
-    width: auto;
+    width: 100%;
     min-width: 100%;
     margin: 0;
 }
