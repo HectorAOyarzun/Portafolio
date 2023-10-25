@@ -25,7 +25,7 @@
 <body>
 <div class="container__grid__index">
     <header class="content__nav__menu">      
-        <nav class="navbar navbar-expand-lg bg-body-tertiary style__navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary style__navbar ">
             <div class="container-fluid">
               <a class="navbar-brand style__navbar__name" href="#" >
                 <h5 style="color:aqua;padding-left: 2px;padding-right: 7px;text-shadow: 0px 0px 20px #adadad;">Héctor</h5> 
@@ -40,13 +40,14 @@
                   <a class="nav-link" href="#about">Acerca de mi</a>
                    <a class="nav-link" href="#education">Educación</a>
                     <a class="nav-link" href="#technology">Herramientas</a>
-                     <a class="nav-link" href="#briefcase">Portafolio</a>
+                     <a class="nav-link" href="#portafolio">Portafolio</a>
                      <a class="nav-link" href="#briefcase">Descargar CV</a>
                   
                 </div>
               </div>
             </div>
-          </nav>
+          </nav>  
+
     </header>
 <main class="content__body">
     <section class="home__portada">
@@ -84,16 +85,17 @@
              <section class="presentation__about" id="about">
                  <div data-aos="fade-up" class="presentation__about__article">
                      <h2>Acerca de mí</h2>
-                        <p>Soy un amante de la tecnología, curioso ante las nuevas tendencias que
-                            se encuentran a disposción, me encanta sorprenderme ante lo que estas 
-                            pueden ofrecer para el desarrollo profesional.
+                        <p>Además de mi experiencia en prevención de riesgos, 
+                            también tengo conocimientos en desarrollo web. Esto me 
+                            permite combinar mis habilidades técnicas con mis conocimientos 
+                            en seguridad laboral para crear soluciones innovadoras y eficientes 
+                            en el ámbito digital.
                             </p>
                         <p>
-                        Disfruto mucho el salir a trotar, viajar, explorar y 
-                        conocer nuevos lugares. Me encantan leer libros de misterrio y suspenso, 
-                        entre otras actividades relacionadas al desarrollo de personal.
-                        Considero que estas actividades son esenciales para mantener un equilibrio
-                        entre la vida laboral y personal.
+                      Mi objetivo es utilizar mis habilidades en desarrollo web para crear soluciones 
+                      personalizadas que se adapten a las necesidades específicas de cada empresa. Creo 
+                      firmemente que la tecnología puede ser una gran aliada en la prevención de riesgos 
+                      laborales y estoy comprometido en encontrar las mejores soluciones para mis clientes.
                         </p>
                  </div>
                  <div  data-aos="flip-right" class="presentation__about__image">
@@ -250,7 +252,46 @@
             </div>
 
         </section>
-        
+
+        <section class="portafolio" id="portafolio">
+            <h2>Portafolio</h2>
+            <div class="portafolio__row">
+               
+                 <div class="portafolio__row__content">
+                    <div class="portafolio__row__content__card">
+                    <a href="https://hectoraoyarzun.github.io/admqhse/index.html">
+                        <img src="./assets/pro-1.JPG" width="300px"> 
+                        <h4>Dashboard</h4> 
+                    </a>
+                </div>
+                </div>
+                <div class="portafolio__row__content">
+                     <div class="portafolio__row__content__card">
+                    <a href="https://script.google.com/macros/s/AKfycbwNHVRjZ4sUa0F9AFXubsq9JJ3MmJ6GZ8nXaFEfETXFqxW8oqujs_ApYSHZTNYrATX1/exec">
+                        <img src="./assets/pro-2.JPG" width="300px"> 
+                        <h4>DataTable Apps Script</h4> 
+                    </a>
+                </div>
+              </div>
+
+            
+             
+
+            </div>
+   <div class="portafolio__row__content">
+                     <div class="portafolio__row__content__card">
+                        
+                    <a href="">
+                         <iframe src="https://drive.google.com/file/d/1T0N9biefheYjB547m7N5fErS_P_LI0eI/preview" 
+                         width="370px" height="280px" allow="autoplay"></iframe>
+                        <h4>App Web </h4> 
+                    </a>
+                </div>
+              </div>
+
+        </section>
+
+       
     
 </main>
 <footer class="content__footer">
@@ -292,6 +333,7 @@
         </div>
   </section>
 </footer> 
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
         crossorigin="anonymous"></script>
@@ -299,7 +341,7 @@
 <script>
   AOS.init();
 </script>
-</div>
+
  
 </body>
 </html>

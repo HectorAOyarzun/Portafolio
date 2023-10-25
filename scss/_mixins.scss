@@ -6,6 +6,7 @@
 }
 @mixin html{
     min-height: 100%;
+    overflow-x: hidden;
 }
 @mixin body{
     //display: flex;

@@ -267,4 +267,49 @@
             }
         }
     }
+   
+.portafolio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        width: 100%;
+        text-align: center;
+        padding: 60px;
+        background-color: gray;
+        box-shadow: 1px 1px 10px gray;
+
+    }
+
+    &__row{
+       width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        &__content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            &__card{
+                    background-color: #c2c2c2d6;
+                    margin: 30px;
+                    padding: 30px;
+                    box-shadow: 1px 1px 6px gray;
+                    a{
+                        text-decoration: none;
+                    }
+                    h4{
+                        padding-top: 20px;
+                        color:rgb(19, 0, 40);
+                    }
+}
+            }
+}
+            img{
+                width: 100%;
+            }
+        }
     

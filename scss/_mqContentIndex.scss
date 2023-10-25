@@ -4,8 +4,9 @@
     grid-template-areas: 
     "links"
     "content_index "
-     "content_index "
-          "content_index "
+    "content_index "
+    "content_index "
+    "content_index "
     "foot"
     ;
 }
@@ -49,6 +50,27 @@
 }
 .education__column {
     width: 100%;
+}
+.education__number{
+    display: none;
+    justify-content: none;
+    align-items: none;
+    background-color:none;
+    color: none;
+    border-radius: none;
+    height: none;
+    width: none;
+    margin: none;
+}
+.education__1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-left:none;
+    height: 100px;
+    margin:20px 10px 20px 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
  .tecno{
           background-image: url(../assets/tecnologias-2.JPG);
@@ -123,5 +145,11 @@
             }
         }
     }
+    .portafolio__row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
     
 }
